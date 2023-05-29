@@ -1,5 +1,6 @@
 package com.example.datingapp.auth
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -78,6 +79,7 @@ class LoginActivity : AppCompatActivity() {
 
             }
 
+            @SuppressLint("SuspiciousIndentation")
             override fun onCodeSent(
                 verificationId: String,
                 token: PhoneAuthProvider.ForceResendingToken,

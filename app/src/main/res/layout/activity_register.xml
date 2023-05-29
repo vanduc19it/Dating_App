@@ -63,11 +63,13 @@
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:layout_width="90dp"
+            android:id="@+id/userImage"
             android:layout_height="90dp"
             android:layout_gravity="center_horizontal"
             android:src="@drawable/avatar"/>
 
         <TextView
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/black"
@@ -85,7 +87,7 @@
               android:layout_width="match_parent"
               android:layout_height="60dp"
               android:hint="Name"
-              android:inputType="number"
+              android:inputType="text"
               android:id="@+id/userName"
               android:drawableLeft="@drawable/user_name"
               android:drawablePadding="10dp"
@@ -100,7 +102,7 @@
               android:layout_width="match_parent"
               android:layout_height="60dp"
               android:hint="Email"
-              android:inputType="number"
+              android:inputType="textEmailAddress"
               android:id="@+id/userEmail"
               android:drawableLeft="@drawable/user_email"
               android:drawablePadding="10dp"
